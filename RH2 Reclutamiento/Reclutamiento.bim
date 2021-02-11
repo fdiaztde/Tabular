@@ -23,6 +23,7 @@
           {
             "name": "SK_CLASE_CONOCIMIENTO",
             "dataType": "double",
+            "isHidden": true,
             "sourceColumn": "SK_CLASE_CONOCIMIENTO",
             "sourceProviderType": "Numeric"
           },
