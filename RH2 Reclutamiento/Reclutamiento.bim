@@ -41,6 +41,7 @@
           {
             "name": "FC_INI_VAL",
             "dataType": "dateTime",
+            "isHidden": true,
             "sourceColumn": "FC_INI_VAL",
             "formatString": "General Date",
             "sourceProviderType": "DBTimeStamp"
@@ -48,6 +49,7 @@
           {
             "name": "FC_FIN_VAL",
             "dataType": "dateTime",
+            "isHidden": true,
             "sourceColumn": "FC_FIN_VAL",
             "formatString": "General Date",
             "sourceProviderType": "DBTimeStamp"
@@ -55,12 +57,14 @@
           {
             "name": "SK_EJECUCION_CREACION",
             "dataType": "double",
+            "isHidden": true,
             "sourceColumn": "SK_EJECUCION_CREACION",
             "sourceProviderType": "Numeric"
           },
           {
             "name": "SK_EJECUCION_MODIFICACION",
             "dataType": "double",
+            "isHidden": true,
             "sourceColumn": "SK_EJECUCION_MODIFICACION",
             "sourceProviderType": "Numeric"
           }
