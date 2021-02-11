@@ -1,0 +1,103 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1200,
+  "model": {
+    "culture": "en-US",
+    "dataSources": [
+      {
+        "name": "Sql",
+        "connectionString": "Provider=SQLNCLI11;Data Source=TDE-LAP-OP-12;Initial Catalog=TDE_DWH_EikonBI_DES;Persist Security Info=true;User ID=tdeuser",
+        "impersonationMode": "impersonateServiceAccount",
+        "annotations": [
+          {
+            "name": "ConnectionEditUISource",
+            "value": "SqlServer"
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "name": "DIM_CLASE_CONOCIMIENTO",
+        "columns": [
+          {
+            "name": "SK_CLASE_CONOCIMIENTO",
+            "dataType": "double",
+            "sourceColumn": "SK_CLASE_CONOCIMIENTO",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "CD_CLASE_CONOCIMIENTO",
+            "dataType": "string",
+            "sourceColumn": "CD_CLASE_CONOCIMIENTO",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "DESC_CLASE_CONOCIMIENTO",
+            "dataType": "string",
+            "sourceColumn": "DESC_CLASE_CONOCIMIENTO",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "FC_INI_VAL",
+            "dataType": "dateTime",
+            "sourceColumn": "FC_INI_VAL",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "FC_FIN_VAL",
+            "dataType": "dateTime",
+            "sourceColumn": "FC_FIN_VAL",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "SK_EJECUCION_CREACION",
+            "dataType": "double",
+            "sourceColumn": "SK_EJECUCION_CREACION",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "SK_EJECUCION_MODIFICACION",
+            "dataType": "double",
+            "sourceColumn": "SK_EJECUCION_MODIFICACION",
+            "sourceProviderType": "Numeric"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DIM_CLASE_CONOCIMIENTO",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " SELECT [RH02].[DIM_CLASE_CONOCIMIENTO].* FROM [RH02].[DIM_CLASE_CONOCIMIENTO] ",
+              "dataSource": "Sql"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [RH02].[DIM_CLASE_CONOCIMIENTO].* FROM [RH02].[DIM_CLASE_CONOCIMIENTO] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "DIM_CLASE_CONOCIMIENTO"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "RH02"
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "ClientCompatibilityLevel",
+        "value": "400"
+      }
+    ]
+  },
+  "id": "SemanticModel"
+}

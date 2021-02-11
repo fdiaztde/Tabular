@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6870E480-7721-4708-BFB8-9AE898AA21B3}") = "RH1 Perfil Empleado", "RH1 Perfil Empleado\RH1 Perfil Empleado.smproj", "{8CE414BB-95B2-4C99-9E03-51BA72086E22}"
+EndProject
+Project("{6870E480-7721-4708-BFB8-9AE898AA21B3}") = "RH3 Nomina", "RH3 Nomina\RH3 Nomina.smproj", "{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}"
+EndProject
+Project("{6870E480-7721-4708-BFB8-9AE898AA21B3}") = "RH2 Reclutamiento", "RH2 Reclutamiento\RH2 Reclutamiento.smproj", "{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		demo_eikon|x86 = demo_eikon|x86
+		Demo_tde|x86 = Demo_tde|x86
+		Development_eikon|x86 = Development_eikon|x86
+		Development_tde|x86 = Development_tde|x86
+		Development|x86 = Development|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.demo_eikon|x86.ActiveCfg = demo_eikon|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.demo_eikon|x86.Build.0 = demo_eikon|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.demo_eikon|x86.Deploy.0 = demo_eikon|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Demo_tde|x86.ActiveCfg = Demo_tde|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Demo_tde|x86.Build.0 = Demo_tde|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Demo_tde|x86.Deploy.0 = Demo_tde|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development_eikon|x86.ActiveCfg = Development_eikon|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development_eikon|x86.Build.0 = Development_eikon|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development_eikon|x86.Deploy.0 = Development_eikon|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development_tde|x86.ActiveCfg = Development_tde|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development_tde|x86.Build.0 = Development_tde|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development_tde|x86.Deploy.0 = Development_tde|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.ActiveCfg = Development|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.Build.0 = Development|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.Deploy.0 = Development|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.demo_eikon|x86.ActiveCfg = demo_eikon|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.demo_eikon|x86.Build.0 = demo_eikon|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.demo_eikon|x86.Deploy.0 = demo_eikon|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Demo_tde|x86.ActiveCfg = Demo_tde|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Demo_tde|x86.Build.0 = Demo_tde|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Demo_tde|x86.Deploy.0 = Demo_tde|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Development_eikon|x86.ActiveCfg = Development_eikon|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Development_eikon|x86.Build.0 = Development_eikon|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Development_eikon|x86.Deploy.0 = Development_eikon|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Development_tde|x86.ActiveCfg = Development_tde|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Development_tde|x86.Build.0 = Development_tde|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Development_tde|x86.Deploy.0 = Development_tde|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Development|x86.ActiveCfg = Development|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Development|x86.Build.0 = Development|x86
+		{C213F1F0-D2F4-401B-829A-43F13FD0BA2C}.Development|x86.Deploy.0 = Development|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.demo_eikon|x86.ActiveCfg = demo_eikon|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.demo_eikon|x86.Build.0 = demo_eikon|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.demo_eikon|x86.Deploy.0 = demo_eikon|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Demo_tde|x86.ActiveCfg = Demo_tde|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Demo_tde|x86.Build.0 = Demo_tde|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Demo_tde|x86.Deploy.0 = Demo_tde|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Development_eikon|x86.ActiveCfg = Development_eikon|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Development_eikon|x86.Build.0 = Development_eikon|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Development_eikon|x86.Deploy.0 = Development_eikon|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Development_tde|x86.ActiveCfg = Development_tde|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Development_tde|x86.Build.0 = Development_tde|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Development_tde|x86.Deploy.0 = Development_tde|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Development|x86.ActiveCfg = Development|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Development|x86.Build.0 = Development|x86
+		{4F1EEC52-E9A8-4832-80FF-89A28E9EEA37}.Development|x86.Deploy.0 = Development|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DE0648E-54CB-41BC-9DF5-F7DF1CE00E9D}
+	EndGlobalSection
+EndGlobal
